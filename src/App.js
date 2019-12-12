@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route path="/" component={Starships} exact />
-        <Route path="/pilots" component={Pilots} />
+        <Route path="/ship-detail" component={Pilots} />
       </Switch>
     </BrowserRouter>
   );
